@@ -1,0 +1,141 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #000;
+  color: #ffd700;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+.box {
+  padding: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid #ffd700;
+  border-radius: 5px 0 0 5px;
+  color: #fff;
+  background-color: #333;
+}
+
+.search-button {
+  padding: 12px 24px;
+  font-size: 18px;
+  border: 2px solid #ffd700;
+  background-color: #ffd700;
+  color: #000;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #ffcc00;
+}
+
+.pokemon-main {
+  margin: 30px auto 30px auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  height: 335px;
+  width: 500px;
+  color: #FEBE10;
+}
+
+.name-and-id {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.size{
+  margin-bottom: 5px;
+}
+
+.sprite-container {
+  margin: 0 auto 0;
+  text-align: center;
+  height: 250px;
+}
+
+.types {
+  text-align: center;
+  height: 40px;
+}
+
+.stats table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.stats th, .stats td {
+  padding: 12px;
+  border-bottom: 1px solid #444;
+  text-align: center;
+}
+
+.stats th {
+  background-color: #333;
+  color: #ffd700;
+  font-size: 1.4rem;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+.stats td{
+  font-size: 1.1rem;
+}
+
+.stats tr:hover {
+  background-color: #444;
+}
+
+.stats th:first-child {
+  width: 50%;
+}
+
+img{
+  max-width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.type-span{
+  height: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  background-color: #D04848;
+  border: 2px red solid;
+  border-radius: 5px;
+  margin-right: 10px;
+}
